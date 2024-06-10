@@ -25,7 +25,7 @@ class EmbedFusion(torch.nn.Module):
 # Load models and tokenizers
 # simcse_model_name = "result_temp/xlm-roberta-large-cross_all"
 simcse_model_name = "wanhin/msimcse_vi-en"
-mt5_model_name = "google/mt5-base"
+mt5_model_name = "###new-checkpoint-model###"
 
 simcse_tokenizer = AutoTokenizer.from_pretrained(simcse_model_name)
 simcse_model = AutoModel.from_pretrained(simcse_model_name)
